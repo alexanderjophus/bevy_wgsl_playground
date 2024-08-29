@@ -1,0 +1,8 @@
+[package]
+name = "bevy_wgsl_playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.14.1", features = ["file_watcher"] }
+bevy-inspector-egui = "0.25.2"
